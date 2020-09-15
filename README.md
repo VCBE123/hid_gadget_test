@@ -126,7 +126,7 @@ static struct platform_device my_hid = {
 ```c
 /* hid_gadget_test */
 
-#include <pthread.h>
+#include <pthread.h>    // linux 多线程头文件
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
